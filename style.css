@@ -1,13 +1,17 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+h2 {
+  font-size: 25px;
+  color: #ca4c4c;
 }
 
-a:hover {
-  color: black;
+input {
+  border: 2px solid #502f2f;
 }
-/*# sourceMappingURL=style.css.map */
+
+.btn {
+  border: 2px solid #118b8b;
+}/*# sourceMappingURL=style.css.map */
