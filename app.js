@@ -23,7 +23,10 @@ $('.btn').click(function (e) {
 
 
 
-
+let a = ['bugun','men',19,'oldum']
+    for(let i = 0; i < a.length; i++){
+        console.log(a[2])
+    }
 
 
 
