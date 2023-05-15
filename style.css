@@ -14,4 +14,30 @@ input {
 
 .btn {
   border: 2px solid #118b8b;
+}
+
+#jsdom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 0 0;
+}
+#jsdom .chat {
+  border: 20px solid #bde0fe;
+  width: 530px;
+  height: 335px;
+  border-radius: 20px;
+  border-bottom-width: 65px;
+}
+#jsdom .chat .message {
+  border: 5px solid #e9ecef;
+  width: auto;
+  height: 255px;
+  padding: 10px;
+}
+#jsdom .chat .text {
+  display: flex;
+}
+#jsdom .chat .text input {
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
