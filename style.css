@@ -16,28 +16,40 @@ input {
   border: 2px solid #118b8b;
 }
 
-#jsdom {
+#chat {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 100px 0 0 0;
 }
-#jsdom .chat {
-  border: 20px solid #bde0fe;
+#chat .chat {
+  border: 20px solid #77b3e7;
   width: 530px;
   height: 335px;
   border-radius: 20px;
   border-bottom-width: 65px;
 }
-#jsdom .chat .message {
-  border: 5px solid #e9ecef;
+#chat .chat .message {
+  border: 5px solid #b0cde9;
   width: auto;
   height: 255px;
   padding: 10px;
 }
-#jsdom .chat .text {
+#chat .chat .text {
+  margin-top: 10px;
   display: flex;
+  justify-content: center;
 }
-#jsdom .chat .text input {
+#chat .chat .text input {
   border-radius: 20px;
+}
+#chat .chat .sent {
+  border: 3px solid #8d8a8a;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #40dde8;
+}
+#chat .chat .sent h3 {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
