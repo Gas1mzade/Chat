@@ -20,36 +20,42 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0 0 0;
+  padding: 100px 0;
+}
+#chat .chat, #chat .message, #chat input, #chat .sent, #chat h3 {
+  border-radius: 20px;
+}
+#chat .sent, #chat h3 {
+  cursor: pointer;
 }
 #chat .chat {
-  border: 20px solid #77b3e7;
-  width: 530px;
-  height: 335px;
-  border-radius: 20px;
-  border-bottom-width: 65px;
+  width: auto;
+  height: 350px;
+  background-color: #e4ecff;
+  padding: 15px;
 }
 #chat .chat .message {
-  border: 5px solid #b0cde9;
+  background-color: #ffffff;
   width: auto;
-  height: 255px;
-  padding: 10px;
+  height: 250px;
+  margin: 10px 15px 20px;
+  padding: 15px;
+}
+#chat .chat .message .line {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 #chat .chat .text {
-  margin-top: 10px;
   display: flex;
   justify-content: center;
+  padding-bottom: 10px;
 }
 #chat .chat .text input {
-  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
 }
-#chat .chat .sent {
-  border: 3px solid #8d8a8a;
-  margin-left: 20px;
-  padding: 10px;
-  border-radius: 15px;
-  background-color: #40dde8;
-}
-#chat .chat .sent h3 {
-  color: white;
+#chat .chat h3 {
+  padding: 10px 25px;
+  color: #ffffff;
+  background-color: #829fd7;
 }/*# sourceMappingURL=style.css.map */

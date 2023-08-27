@@ -2,29 +2,63 @@
     display: flex
     justify-content: center
     align-items: center
-    padding: 100px 0 0 0
-    .chat
-        border: 20px solid #77b3e7
-        width: 530px
-        height: 335px
+    padding: 100px 0
+    .chat,.message,input,.sent,h3
         border-radius: 20px
-        border-bottom-width: 65px
+    .sent,h3
+        cursor: pointer
+    .chat
+        width: auto
+        height: 350px
+        background-color: #e4ecff
+        padding: 15px
         .message
-            border: 5px solid #b0cde9
+            background-color: #ffffff
             width: auto
-            height: 255px
-            padding: 10px
+            height: 250px
+            margin: 10px 15px 20px
+            padding: 15px
+            .line
+                width: fit-content
+
         .text
-            margin-top: 10px
             display: flex
             justify-content: center
+            padding-bottom: 10px
             input
-                border-radius: 20px
-        .sent
-            border: 3px solid #8d8a8a
-            margin-left: 20px
-            padding: 10px
-            border-radius: 15px
-            background-color: #40dde8
-            h3
-                color: #ffff
+                border: none
+                margin-right: 10px
+        h3
+            padding: 10px 25px
+            color: #ffffff
+            background-color: #829fd7
+
+    // display: flex
+    // justify-content: center
+    // align-items: center
+    // padding: 100px 0 0 0
+    // .chat
+    //     border: 20px solid #77b3e7
+    //     width: 530px
+    //     height: 335px
+    //     border-radius: 20px
+    //     border-bottom-width: 65px
+    //     .message
+    //         border: 5px solid #b0cde9
+    //         width: auto
+    //         height: 255px
+    //         padding: 10px
+    //     .text
+    //         margin-top: 10px
+    //         display: flex
+    //         justify-content: center
+    //         input
+    //             border-radius: 20px
+    //     .sent
+    //         border: 3px solid #8d8a8a
+    //         margin-left: 20px
+    //         padding: 10px
+    //         border-radius: 15px
+    //         background-color: #40dde8
+    //         h3
+    //             color: #ffff
