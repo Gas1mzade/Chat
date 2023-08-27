@@ -44,6 +44,7 @@ input {
 #chat .chat .message .line {
   width: -moz-fit-content;
   width: fit-content;
+  margin-bottom: 10px;
 }
 #chat .chat .text {
   display: flex;
