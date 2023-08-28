@@ -40,12 +40,12 @@ input {
   text-align: end;
 }
 #chat .message .line {
+  padding: 10px;
   display: inline-block;
   margin-bottom: 10px;
   border-radius: 20px;
   background-color: #7991e7;
-  padding: 10px;
-  color: white;
+  color: #ffffff;
   text-align: start;
   max-width: 50%;
 }
@@ -60,9 +60,9 @@ input {
   margin-right: 15px;
 }
 #chat .text .sent {
+  padding: 10px 25px;
   border-radius: 20px;
   background-color: #90a2d5;
-  padding: 10px 25px;
   color: #ffffff;
   cursor: pointer;
 }
