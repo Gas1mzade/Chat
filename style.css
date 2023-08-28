@@ -17,46 +17,52 @@ input {
 }
 
 #chat {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 100px 0;
-}
-#chat .chat, #chat .message, #chat input, #chat .sent, #chat h3 {
-  border-radius: 20px;
-}
-#chat .sent, #chat h3 {
-  cursor: pointer;
+  margin: 100px 0;
 }
 #chat .chat {
-  width: auto;
-  height: 350px;
+  width: 100%;
   background-color: #e4ecff;
-  padding: 15px;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 20px 0;
 }
-#chat .chat .message {
+#chat .message {
+  height: 280px;
   background-color: #ffffff;
-  width: auto;
-  height: 250px;
-  margin: 10px 15px 20px;
-  padding: 15px;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: auto;
 }
-#chat .chat .message .line {
-  width: -moz-fit-content;
-  width: fit-content;
+#chat .message .end {
+  text-align: end;
+}
+#chat .message .line {
+  display: inline-block;
   margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #7991e7;
+  padding: 10px;
+  color: white;
+  text-align: start;
+  max-width: 50%;
 }
-#chat .chat .text {
+#chat .text {
   display: flex;
   justify-content: center;
-  padding-bottom: 10px;
+  margin-top: 20px;
 }
-#chat .chat .text input {
+#chat .text input {
+  border-radius: 20px;
   border: none;
-  margin-right: 10px;
+  margin-right: 15px;
 }
-#chat .chat h3 {
+#chat .text .sent {
+  border-radius: 20px;
+  background-color: #90a2d5;
   padding: 10px 25px;
   color: #ffffff;
-  background-color: #829fd7;
+  cursor: pointer;
+}
+#chat .text .sent h3 {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
